@@ -37,6 +37,11 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+
+  position: sticky; /*Deixar o menu grudado*/
+  top: 0;
+
+  z-index: 1; /* Qual camada fica na frente da outra*/
 }
 
 nav#menu ul {
